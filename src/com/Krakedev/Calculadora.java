@@ -23,7 +23,7 @@ public class Calculadora {
 		
 		double resultado; //declaro la variable
 		
-		resultado = valor1 - valor2;
+		resultado = valor1 * valor2;
 		
 		return resultado;
 	}
