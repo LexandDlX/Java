@@ -27,4 +27,13 @@ public class Calculadora {
 		
 		return resultado;
 	}
+	
+	public double promediar (double valor1, double valor2, double valor3) { //función
+		
+		double resultado; //declaro la variable
+		
+		resultado = (valor1 + valor2 + valor3)/3;
+		
+		return resultado;
+	}
 }
