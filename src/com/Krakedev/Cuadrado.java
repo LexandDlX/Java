@@ -2,7 +2,7 @@ package com.Krakedev;
 
 public class Cuadrado {
 	
-	public int lado; //Atributos
+	private int lado; //Atributos
 	
 	public double calcularArea() { // Metodos
 		
@@ -17,5 +17,15 @@ public class Cuadrado {
 		perimetro = lado * 4;
 		return perimetro;
 	}
+
+	public int getLado() {
+		return lado;
+	}
+
+	public void setLado(int lado) {
+		this.lado = lado;
+	}
+	
+	
 
 }
