@@ -7,6 +7,7 @@ public class TestAuto {
 		
 		Auto auto1 = new Auto();
 		Auto auto2 = new Auto();
+		Auto auto3 = new Auto("JMC VIGUS PLUS", 2023, 27.000);
 		
 		auto1.setMarca("Ford F-150");
 		auto1.setAnio(2022);
@@ -16,6 +17,11 @@ public class TestAuto {
 		auto2.setAnio(2023);
 		auto2.setPrecio(70.000);
 		
+		System.out.println("Marca:"+ auto3.getMarca());
+		System.out.println("Año:"+ auto3.getAnio());
+		System.out.println("Precio:"+ auto3.getPrecio());
+		
+		System.out.println("-------------------------");
 		System.out.println("Marca:"+ auto1.getMarca());
 		System.out.println("Año:"+ auto1.getAnio());
 		System.out.println("Precio:"+ auto1.getPrecio());

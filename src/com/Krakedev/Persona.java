@@ -5,6 +5,21 @@ public class Persona {
 	private String nombre;
 	private int edad;
 	private double estatura;
+	
+	//los constructures tienen el mismo nombre de la clase
+	public Persona(){
+		
+	}
+	public Persona(String nombre){
+		this.nombre = nombre;
+	}
+	public Persona(String nombre, int edad, double estatura){
+		this.nombre = nombre;
+		this.edad = edad;
+		this.estatura = estatura;
+	}
+	
+	//metodos getter y setter
 	public String getNombre() {
 		return nombre;
 	}

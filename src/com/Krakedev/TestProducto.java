@@ -8,6 +8,9 @@ public class TestProducto {
 		Producto productoA = new Producto();
 		Producto productoB = new Producto();
 		Producto productoC = new Producto();
+		Producto productoD = new Producto("Protector Solar UMBRELLA Max Emulsión 91121 FPS 100 100 g"
+				,"Bloqueador solara que brinda protección contra los rayos UVA, hipo alergénico y no comedogénico."
+				,18.99, 121);
 		
 		productoA.setNombre("REDOXON 200 mg en Gotas 20 ml");
 		productoA.setDescripcion("Ayuda a la prevención y tratamiento de las deficiencias de vitamina C.");
@@ -43,6 +46,12 @@ public class TestProducto {
 		System.out.println("Descripción:"+ productoC.getDescripcion());
 		System.out.println("Precio:"+ productoC.getPrecio());
 		System.out.println("Stock:"+ productoC.getStockActual());
+		
+		System.out.println("-------------------------------------");
+		System.out.println("Nombre:"+ productoD.getNombre());
+		System.out.println("Descripción:"+ productoD.getDescripcion());
+		System.out.println("Precio:"+ productoD.getPrecio());
+		System.out.println("Stock:"+ productoD.getStockActual());
 	}
 
 }
