@@ -1,4 +1,6 @@
-package com.Krakedev;
+package com.Krakedev.test;
+
+import com.Krakedev.Persona;
 
 public class TestPersona {
 
@@ -6,7 +8,7 @@ public class TestPersona {
 		// TODO Auto-generated method stub
 		Persona p; //1. declaro una variable llamada p de tipo Persona
 		Persona p2 = new Persona();
-		Persona p3 = new Persona("Andrea");
+		//Persona p3 = new Persona("Andrea");
 		Persona p4 = new Persona("Rocio", 43, 1.60);
 		
 		System.out.println("Nombre:"+ p4.getNombre());

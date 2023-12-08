@@ -1,4 +1,6 @@
-package com.Krakedev;
+package com.Krakedev.test;
+
+import com.Krakedev.Fecha;
 
 public class TestFecha {
 
